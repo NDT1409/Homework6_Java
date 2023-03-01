@@ -15,7 +15,11 @@ public class task3 {
         int y = yPart % 10;
         int z = a % 10;
 
-        System.out.println("The summary from 3 numbers is: " + (x + y + z));
+        if (a < 1000 && a > 99) {
+            System.out.println("The summary from 3 numbers is: " + (x + y + z));
+        } else {
+            System.out.println("Please enter correct amount");
+        }
         System.out.println("App finished work.");
     }
 }
